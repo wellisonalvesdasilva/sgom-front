@@ -35,7 +35,7 @@ export default defineComponent({
     const columns = [
       { name: 'id', field: 'id', align: 'left', label: 'Id', sortable: true },
       { name: 'nomeServico', field: 'nomeServico', align: 'left', label: 'Nome', sortable: true },
-      { name: 'terceiro', field: 'terceiro', align: 'left', label: 'Terceiro', sortable: true },
+      // { name: 'terceiro', field: 'terceiro', align: 'left', label: 'Terceiro', sortable: true },
       { name: 'actions', field: 'actions', align: 'right', label: 'Ações' }
     ]
     const $q = useQuasar()
